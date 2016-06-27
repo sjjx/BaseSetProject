@@ -13,6 +13,7 @@
 		2320F57B1D1B8F7A00C0B1B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2320F57A1D1B8F7A00C0B1B3 /* Assets.xcassets */; };
 		2320F5891D1B8F7A00C0B1B3 /* MemberUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2320F5881D1B8F7A00C0B1B3 /* MemberUtilTests.m */; };
 		2320F5941D1B8F7A00C0B1B3 /* MemberUtilUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2320F5931D1B8F7A00C0B1B3 /* MemberUtilUITests.m */; };
+		239F6A3F1D20BEB3004BDD71 /* SJNetworkBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 239F6A3E1D20BEB3004BDD71 /* SJNetworkBase.m */; };
 		D5CE35D268AA34F4474F05AC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A910E1F78935973F5A0F36 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,9 @@
 		239276311D1BD39C00AD0407 /* SJHelperMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJHelperMacros.h; sourceTree = "<group>"; };
 		239276321D1BD7FD00AD0407 /* SJUserDefaultMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJUserDefaultMacros.h; sourceTree = "<group>"; };
 		239276331D1BD96C00AD0407 /* SJEnumMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJEnumMacros.h; sourceTree = "<group>"; };
+		239F6A3D1D20BEB3004BDD71 /* SJNetworkBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNetworkBase.h; sourceTree = "<group>"; };
+		239F6A3E1D20BEB3004BDD71 /* SJNetworkBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJNetworkBase.m; sourceTree = "<group>"; };
+		239F6A401D20BEE9004BDD71 /* SJPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJPrefixHeader.pch; sourceTree = "<group>"; };
 		26A13E55740BDC67A1FEDD83 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D5A910E1F78935973F5A0F36 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4589725733E94EFD046FE53 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				2320F56F1D1B8F7A00C0B1B3 /* main.m */,
+				239F6A401D20BEE9004BDD71 /* SJPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -328,16 +333,10 @@
 		239276341D1BD9F900AD0407 /* NetWork（网络） */ = {
 			isa = PBXGroup;
 			children = (
-				239276351D1BDA2300AD0407 /* New Group */,
+				239F6A3D1D20BEB3004BDD71 /* SJNetworkBase.h */,
+				239F6A3E1D20BEB3004BDD71 /* SJNetworkBase.m */,
 			);
 			path = "NetWork（网络）";
-			sourceTree = "<group>";
-		};
-		239276351D1BDA2300AD0407 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "New Group";
 			sourceTree = "<group>";
 		};
 		BE0F97B45BF34AADA7B140A5 /* Pods */ = {
@@ -530,6 +529,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				239F6A3F1D20BEB3004BDD71 /* SJNetworkBase.m in Sources */,
 				2320F5761D1B8F7A00C0B1B3 /* ViewController.m in Sources */,
 				2320F5731D1B8F7A00C0B1B3 /* AppDelegate.m in Sources */,
 				2320F5701D1B8F7A00C0B1B3 /* main.m in Sources */,
@@ -604,7 +604,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -641,7 +641,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -703,6 +703,7 @@
 		2320F59F1D1B8F7A00C0B1B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PREFIX_HEADER = /Users/wusijun/Desktop/SJ_Study/BaseSetProject/BaseSetProject/MemberUtil/MemberUtil/SJPrefixHeader.pch;
 				INFOPLIST_FILE = MemberUtilUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wsijun.MemberUtilUITests;
@@ -715,6 +716,7 @@
 		2320F5A01D1B8F7A00C0B1B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PREFIX_HEADER = /Users/wusijun/Desktop/SJ_Study/BaseSetProject/BaseSetProject/MemberUtil/MemberUtil/SJPrefixHeader.pch;
 				INFOPLIST_FILE = MemberUtilUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wsijun.MemberUtilUITests;
