@@ -17,6 +17,7 @@ typedef void (^SJNetworkingFailed)(NSError *error);
  *  单例
  *  @return 实例化对象
  */
+
 + (instancetype)sharedInstane;
 
 /**

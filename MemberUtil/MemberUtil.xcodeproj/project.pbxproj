@@ -14,6 +14,12 @@
 		2320F5891D1B8F7A00C0B1B3 /* MemberUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2320F5881D1B8F7A00C0B1B3 /* MemberUtilTests.m */; };
 		2320F5941D1B8F7A00C0B1B3 /* MemberUtilUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2320F5931D1B8F7A00C0B1B3 /* MemberUtilUITests.m */; };
 		239F6A3F1D20BEB3004BDD71 /* SJNetworkBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 239F6A3E1D20BEB3004BDD71 /* SJNetworkBase.m */; };
+		239F6A431D20CD3F004BDD71 /* SJMBBarProgressViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 239F6A421D20CD3F004BDD71 /* SJMBBarProgressViewHelper.m */; };
+		239F6A461D20CE19004BDD71 /* SJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 239F6A451D20CE19004BDD71 /* SJBaseViewController.m */; };
+		239F6A491D20CEC4004BDD71 /* UILabel+SJLabel_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 239F6A481D20CEC4004BDD71 /* UILabel+SJLabel_Category.m */; };
+		239F6A4C1D20CEFF004BDD71 /* UIView+AAAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 239F6A4B1D20CEFF004BDD71 /* UIView+AAAd.m */; };
+		239F6A4F1D20D48F004BDD71 /* SJSerializedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 239F6A4E1D20D48F004BDD71 /* SJSerializedObject.m */; };
+		239F6A521D20D4F4004BDD71 /* SJView.m in Sources */ = {isa = PBXBuildFile; fileRef = 239F6A511D20D4F4004BDD71 /* SJView.m */; };
 		D5CE35D268AA34F4474F05AC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A910E1F78935973F5A0F36 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +61,18 @@
 		239F6A3D1D20BEB3004BDD71 /* SJNetworkBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNetworkBase.h; sourceTree = "<group>"; };
 		239F6A3E1D20BEB3004BDD71 /* SJNetworkBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJNetworkBase.m; sourceTree = "<group>"; };
 		239F6A401D20BEE9004BDD71 /* SJPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJPrefixHeader.pch; sourceTree = "<group>"; };
+		239F6A411D20CD3F004BDD71 /* SJMBBarProgressViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJMBBarProgressViewHelper.h; sourceTree = "<group>"; };
+		239F6A421D20CD3F004BDD71 /* SJMBBarProgressViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJMBBarProgressViewHelper.m; sourceTree = "<group>"; };
+		239F6A441D20CE19004BDD71 /* SJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJBaseViewController.h; sourceTree = "<group>"; };
+		239F6A451D20CE19004BDD71 /* SJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJBaseViewController.m; sourceTree = "<group>"; };
+		239F6A471D20CEC4004BDD71 /* UILabel+SJLabel_Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+SJLabel_Category.h"; sourceTree = "<group>"; };
+		239F6A481D20CEC4004BDD71 /* UILabel+SJLabel_Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SJLabel_Category.m"; sourceTree = "<group>"; };
+		239F6A4A1D20CEFF004BDD71 /* UIView+AAAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AAAd.h"; sourceTree = "<group>"; };
+		239F6A4B1D20CEFF004BDD71 /* UIView+AAAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AAAd.m"; sourceTree = "<group>"; };
+		239F6A4D1D20D48F004BDD71 /* SJSerializedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJSerializedObject.h; sourceTree = "<group>"; };
+		239F6A4E1D20D48F004BDD71 /* SJSerializedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJSerializedObject.m; sourceTree = "<group>"; };
+		239F6A501D20D4F4004BDD71 /* SJView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJView.h; sourceTree = "<group>"; };
+		239F6A511D20D4F4004BDD71 /* SJView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJView.m; sourceTree = "<group>"; };
 		26A13E55740BDC67A1FEDD83 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D5A910E1F78935973F5A0F36 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4589725733E94EFD046FE53 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -232,6 +250,10 @@
 		239276231D1BC2E900AD0407 /* Category (类别) */ = {
 			isa = PBXGroup;
 			children = (
+				239F6A4A1D20CEFF004BDD71 /* UIView+AAAd.h */,
+				239F6A4B1D20CEFF004BDD71 /* UIView+AAAd.m */,
+				239F6A471D20CEC4004BDD71 /* UILabel+SJLabel_Category.h */,
+				239F6A481D20CEC4004BDD71 /* UILabel+SJLabel_Category.m */,
 			);
 			path = "Category (类别)";
 			sourceTree = "<group>";
@@ -267,6 +289,8 @@
 		239276271D1BC3E400AD0407 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				239F6A4D1D20D48F004BDD71 /* SJSerializedObject.h */,
+				239F6A4E1D20D48F004BDD71 /* SJSerializedObject.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -274,6 +298,8 @@
 		239276281D1BC3F600AD0407 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				239F6A501D20D4F4004BDD71 /* SJView.h */,
+				239F6A511D20D4F4004BDD71 /* SJView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -281,6 +307,8 @@
 		239276291D1BC3FD00AD0407 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				239F6A441D20CE19004BDD71 /* SJBaseViewController.h */,
+				239F6A451D20CE19004BDD71 /* SJBaseViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -319,6 +347,8 @@
 		2392762E1D1BC7B200AD0407 /* Common (通用的) */ = {
 			isa = PBXGroup;
 			children = (
+				239F6A411D20CD3F004BDD71 /* SJMBBarProgressViewHelper.h */,
+				239F6A421D20CD3F004BDD71 /* SJMBBarProgressViewHelper.m */,
 			);
 			path = "Common (通用的)";
 			sourceTree = "<group>";
@@ -529,10 +559,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				239F6A491D20CEC4004BDD71 /* UILabel+SJLabel_Category.m in Sources */,
 				239F6A3F1D20BEB3004BDD71 /* SJNetworkBase.m in Sources */,
+				239F6A4F1D20D48F004BDD71 /* SJSerializedObject.m in Sources */,
+				239F6A461D20CE19004BDD71 /* SJBaseViewController.m in Sources */,
+				239F6A4C1D20CEFF004BDD71 /* UIView+AAAd.m in Sources */,
 				2320F5761D1B8F7A00C0B1B3 /* ViewController.m in Sources */,
+				239F6A431D20CD3F004BDD71 /* SJMBBarProgressViewHelper.m in Sources */,
 				2320F5731D1B8F7A00C0B1B3 /* AppDelegate.m in Sources */,
 				2320F5701D1B8F7A00C0B1B3 /* main.m in Sources */,
+				239F6A521D20D4F4004BDD71 /* SJView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
